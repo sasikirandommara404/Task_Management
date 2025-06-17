@@ -12,7 +12,7 @@ app.use(cors())
 
 const fun = async ()=>{
     try{
-        await mongoose.connect("mongodb+srv://sasikiran9949:sasi9381@cluster0.psevtbo.mongodb.net/")
+        await mongoose.connect("mongodb+srv://sasikiran9949:sasi9381@cluster0.psevtbo.mongodb.net/task_db")
         console.log('Connected SucessFully ')
         console.log(`server is running at http://localhost:${port}/user`)
 
