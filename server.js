@@ -9,7 +9,6 @@ app.use(express.json())
 app.use(cors())
 
 
-
 const fun = async ()=>{
     try{
         await mongoose.connect("mongodb+srv://sasikiran9949:sasi9381@cluster0.psevtbo.mongodb.net/task_db")
